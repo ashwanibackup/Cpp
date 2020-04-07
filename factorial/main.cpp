@@ -8,8 +8,8 @@ using namespace std;
 
 int main()
 {
-  int fact{1};
-  unsigned int num{}, original{};
+  int num{};
+  unsigned int fact{1}, original{};
 
   cout << "Enter the number: ";
   cin >> num;
