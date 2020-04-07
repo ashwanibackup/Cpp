@@ -17,7 +17,7 @@ int main()
   {
     cout << "No factorial for negative number" << endl;
   }
-  else if (num = 0)
+  else if (num == 0)
   {
     cout << num << "! = 1" << endl;
   }
@@ -29,6 +29,6 @@ int main()
     }
     cout << num << "! = " << fact << endl;
   }
-  
+
   return 0;
 }
