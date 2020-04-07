@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-  unsigned int fact{1}, num{};
+  unsigned int fact{1}, num{}, original{};
 
   cout << "Enter the number: ";
   cin >> num;
@@ -23,11 +23,12 @@ int main()
   }
   else
   {
+    original = num;
     while(num >= 1)
     {
       fact = fact * num--;
     }
-    cout << num << "! = " << fact << endl;
+    cout << original << "! = " << fact << endl;
   }
 
   return 0;
