@@ -16,7 +16,6 @@ int main()
   int str_len = format.size();
   int print_index{};
 
-  cout << "helo" << endl;
   for(print_line = 1; print_line <= str_len; print_line++)
   {
     //print_space
